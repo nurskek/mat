@@ -767,8 +767,8 @@
               </ul>
 
               <form id="add-data">
-                <input type="text" name="prof" placeholder="Name prof">
-                <input type="text" name="job" placeholder="Name job">
+                <input type="email" name="email" placeholder="email">
+                <input type="password" name="password" placeholder="pass">
                 <button>Add information</button>
               </form>
             </div>
@@ -1119,43 +1119,15 @@
   <!-- firebase -->
   <!--  -->
   <script src="newFile.js"></script>
+  <script src="mission1.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
 <!-- Add Firebase products that you want to use -->
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script> 
-<!-- 
-  <script>
-    // Import the functions you need from the SDKs you need
-    // import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
-    // import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-  
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyDzcK3aMb6B_rIL2SEUiazfBJ-mUSa2vCU",
-      authDomain: "nurseekfirebase.firebaseapp.com",
-      projectId: "nurseekfirebase",
-      storageBucket: "nurseekfirebase.appspot.com",
-      messagingSenderId: "259890841758",
-      appId: "1:259890841758:web:956661bb5e25f379f9d38f",
-      measurementId: "G-DQNS17C30Q"
-    };
-  
-    // Initialize Firebase
-    // we can do that as we wrote the scrip in head section
-    // we interact with database througj 'db'
-    firebase.initializeApp(firebaseConfig);
-    const db = firebase.firestore();
-    // for not getting warnings/errors in console
-    db.settings({timestampsInSnapshots: true });
+<script src="auth.js"></script>
 
-    // const analytics = getAnalytics(app);
-  </script> -->
-  <!-- <script src="newFile.js"></script> -->
 </body>
 
 </html>
